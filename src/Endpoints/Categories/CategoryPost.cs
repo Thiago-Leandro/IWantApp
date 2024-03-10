@@ -1,5 +1,6 @@
 ﻿using IWantApp.Domain.Products;
 using IWantApp.Infra.Data;
+using System.Runtime.CompilerServices;
 
 namespace IWantApp.Endpoints.Categories;
 
@@ -12,7 +13,11 @@ public class CategoryPost
     {
         var category = new Category
         {
-            Name = categoryRequest.Name
+            Name = categoryRequest.Name,
+            CreateBy = "Test",
+            CreateOn = DateTime.Now,
+            EditedBy = "Test",
+            EditedOn = DateTime.Now,
         };
         context.Categories.Add(category);
         context.SaveChanges();

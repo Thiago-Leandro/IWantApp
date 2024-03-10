@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiago.leandro\\Downloads\\IWantApp\\src\\IWantApp.csproj": {}
+    "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\IWantApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiago.leandro\\Downloads\\IWantApp\\src\\IWantApp.csproj": {
+    "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\IWantApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.leandro\\Downloads\\IWantApp\\src\\IWantApp.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\IWantApp.csproj",
         "projectName": "IWantApp",
-        "projectPath": "C:\\Users\\thiago.leandro\\Downloads\\IWantApp\\src\\IWantApp.csproj",
-        "packagesPath": "C:\\Users\\thiago.leandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.leandro\\Downloads\\IWantApp\\src\\obj\\",
+        "projectPath": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\IWantApp.csproj",
+        "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\thiago.leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/": {}
         },
         "frameworks": {
           "net6.0": {
