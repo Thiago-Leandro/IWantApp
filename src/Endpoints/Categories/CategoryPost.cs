@@ -11,14 +11,14 @@ public class CategoryPost
     public static Delegate Handle => Action;
     public static IResult Action(CategoryRequest categoryRequest, ApplicationDbContext context)
     {
-        var category = new Category
+
+        var category = new Category(categoryRequest.Name, "Test", "Test");
+
+        if (!category.IsValid)
         {
-            Name = categoryRequest.Name,
-            CreateBy = "Test",
-            CreateOn = DateTime.Now,
-            EditedBy = "Test",
-            EditedOn = DateTime.Now,
-        };
+            return Results.ValidationProblem(category.Notifications.ConvertToProblemDetais());
+        }
+
         context.Categories.Add(category);
         context.SaveChanges();
 

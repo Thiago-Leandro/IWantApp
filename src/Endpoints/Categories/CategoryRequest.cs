@@ -3,5 +3,5 @@
 public class CategoryRequest
 {
     public string Name { get; set; }
-    public booL Active { get; set; }
+    public bool Active { get; set; }
 }
