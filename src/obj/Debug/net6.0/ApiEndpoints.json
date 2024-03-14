@@ -20,5 +20,48 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "IWantApp.Endpoints.Categories.CategoryGetAll",
+    "Method": "Action",
+    "RelativePath": "categories",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IWantApp.Endpoints.Categories.CategoryPut",
+    "Method": "Action",
+    "RelativePath": "categories/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "CategoryRequest",
+        "Type": "IWantApp.Endpoints.Categories.CategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
