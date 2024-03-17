@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using IWantApp.Endpoints.Categories;
 using Microsoft.Data.SqlClient;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace IWantApp.Infra.Data;
 
@@ -13,17 +14,17 @@ public class QueryAllUsersWithClaimName
         this.configuration = configuration;
     }
 
-    public IEnumerable<EmployeeResponse> Execute(int page, int rows)
+    public async Task<IEnumerable<EmployeeResponse>> Execute(int page, int rows)
     {
-        var db = new SqlConnection(configuration["connectionString:IWantDb"]);
+        var db = new SqlConnection(configuration["ConnectionString:IWantDb"]);
         var query =
-            @"select Email, ClaimValue as Name
+            @"select Email, ClaimValue as Name 
             from AspNetUsers u inner
             join AspNetUserClaims c
-            on u,id = configuration.UserId and claimtype = 'Name'
+            on u.id = c.UserId and claimtype = 'Name'
             order by name
             OFFSET (@page -1 ) * @rows ROWS FETCH NEXT @rows ROWS ONLY";
-         return db.Query<EmployeeResponse>(
+        return await db.QueryAsync<EmployeeResponse>(
             query,
             new { page, rows }
         );
