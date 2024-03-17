@@ -27,4 +27,4 @@ public class CategoryPost
 
         return Results.Created($"/categories/{category.Id}", category.Id);
     }
-}
+}0
