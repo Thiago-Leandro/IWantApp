@@ -1,5 +1,4 @@
-﻿
-namespace IWantApp.Endpoints.Security;
+﻿namespace IWantApp.Endpoints.Security;
 
 public class TokenPost
 {

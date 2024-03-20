@@ -1,5 +1,20 @@
 
+using Serilog;
+using Serilog.Sinks.MSSqlServer;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseSerilog((context, configuration) =>
+{
+    configuration
+        .WriteTo.Console()
+        .WriteTo.MSSqlServer(
+            context.Configuration["ConnectionString:IWantDb"],
+              sinkOptions: new MSSqlServerSinkOptions()
+              {
+                  AutoCreateSqlTable = true,
+                  TableName = "LogAPI"
+              });
+});
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSqlServer<ApplicationDbContext>(
@@ -12,6 +27,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     options.Password.RequireLowercase = false;
     options.Password.RequiredLength = 3;
 }).AddEntityFrameworkStores<ApplicationDbContext>();
+
+
 
 builder.Services.AddAuthorization(options =>
 {
@@ -47,6 +64,7 @@ builder.Services.AddAuthentication(x =>
 });
 
 builder.Services.AddScoped<QueryAllUsersWithClaimName>();
+builder.Services.AddScoped<UserCreator>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
