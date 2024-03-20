@@ -1,8 +1,4 @@
-﻿using Dapper;
-using IWantApp.Endpoints.Categories;
-using Microsoft.Data.SqlClient;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-
+﻿
 namespace IWantApp.Infra.Data;
 
 public class QueryAllUsersWithClaimName
