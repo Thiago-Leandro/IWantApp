@@ -10,13 +10,12 @@ public class Category : Entity
     {
         Name = name;
         Active = true;
-        CreateBy = createdBy;
-        EditBy = editedBy;
-        CreateOn = DateTime.Now;
-        EditOn = DateTime.Now;
+        CreatedBy = createdBy;
+        EditedBy = editedBy;
+        CreatedOn = DateTime.Now;
+        EditedOn = DateTime.Now;
 
         Validate();
-
     }
 
     private void Validate()
@@ -24,18 +23,18 @@ public class Category : Entity
         var contract = new Contract<Category>()
             .IsNotNullOrEmpty(Name, "Name")
             .IsGreaterOrEqualsThan(Name, 3, "Name")
-            .IsNotNullOrEmpty(CreateBy, "CreatedBy")
-            .IsNotNullOrEmpty(EditBy, "EditedBy");
+            .IsNotNullOrEmpty(CreatedBy, "CreatedBy")
+            .IsNotNullOrEmpty(EditedBy, "EditedBy");
         AddNotifications(contract);
     }
 
     public void EditInfo(string name, bool active, string editedBy)
-    { 
+    {
         Active = active;
         Name = name;
-        EditBy = editedBy;
+        EditedBy = editedBy;
+        EditedOn = DateTime.Now;
 
         Validate();
-
     }
 }

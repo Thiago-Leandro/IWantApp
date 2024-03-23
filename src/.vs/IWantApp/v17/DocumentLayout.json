@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\infra\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:infra\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\products\\productpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\products\\productpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\products\\productgetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\products\\productgetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\products\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\products\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:domain\\products\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\products\\productgetshowcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\products\\productgetshowcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\iwantapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:iwantapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "IWantApp.csproj",
               "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\IWantApp.csproj",
               "RelativeDocumentMoniker": "IWantApp.csproj",
@@ -56,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -65,72 +49,19 @@
               "ViewState": "AQIAAE4AAAAAAAAAAAAAAGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T01:51:53.443Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Infra\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infra\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Infra\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infra\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T22:47:05.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductRequest.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductRequest.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductRequest.cs",
-              "RelativeToolTip": "Endpoints\\Products\\ProductRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T22:45:40.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductGetAll.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductGetAll.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductGetAll.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductGetAll.cs",
-              "RelativeToolTip": "Endpoints\\Products\\ProductGetAll.cs",
+              "Title": "ProductGetShowcases.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductGetShowcases.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductGetShowcases.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductGetShowcases.cs",
+              "RelativeToolTip": "Endpoints\\Products\\ProductGetShowcases.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T22:06:34.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Domain\\Products\\Product.cs",
-              "RelativeDocumentMoniker": "Domain\\Products\\Product.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Domain\\Products\\Product.cs",
-              "RelativeToolTip": "Domain\\Products\\Product.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAYwAIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T22:01:52.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductPost.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductPost.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductPost.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductPost.cs",
-              "RelativeToolTip": "Endpoints\\Products\\ProductPost.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T21:58:35.175Z",
+              "WhenOpened": "2024-03-23T16:36:29.912Z",
               "EditorCaption": ""
             },
             {

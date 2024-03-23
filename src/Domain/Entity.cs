@@ -1,5 +1,4 @@
-﻿
-namespace IWantApp.Domain;
+﻿namespace IWantApp.Domain;
 
 public abstract class Entity : Notifiable<Notification>
 {
@@ -9,9 +8,8 @@ public abstract class Entity : Notifiable<Notification>
     }
 
     public Guid Id { get; set; }
-    public string Name { get; set; }
-    public string CreateBy { get; set; }
-    public DateTime CreateOn { get; set; }
-    public string EditBy { get; set; }
-    public DateTime EditOn { get; set; }
+    public string CreatedBy { get; set; }
+    public DateTime CreatedOn { get; set; }
+    public string EditedBy { get; set; }
+    public DateTime EditedOn { get; set; }
 }
