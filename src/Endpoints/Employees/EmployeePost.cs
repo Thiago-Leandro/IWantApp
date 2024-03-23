@@ -1,5 +1,4 @@
-﻿
-namespace IWantApp.Endpoints.Employees;
+﻿namespace IWantApp.Endpoints.Employees;
 
 public class EmployeePost
 {
@@ -22,7 +21,7 @@ public class EmployeePost
             await userCreator.Create(employeeRequest.Email, employeeRequest.Password, userClaims);
 
         if (!result.identity.Succeeded)
-            return Results.ValidationProblem(result.identity.Errors.ConvertToProblemDetais());
+            return Results.ValidationProblem(result.identity.Errors.ConvertToProblemDetails());
         return Results.Created($"/employees/{result.userId}", result.userId);
     }
 }

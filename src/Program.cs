@@ -1,22 +1,5 @@
 
-using Serilog;
-using Serilog.Sinks.MSSqlServer;
-
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseSerilog((context, configuration) =>
-{
-    configuration
-        .WriteTo.Console()
-        .WriteTo.MSSqlServer(
-            context.Configuration["ConnectionString:IWantDb"],
-              sinkOptions: new MSSqlServerSinkOptions()
-              {
-                  AutoCreateSqlTable = true,
-                  TableName = "LogAPI"
-              });
-});
-
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSqlServer<ApplicationDbContext>(
     builder.Configuration["ConnectionString:IWantDb"]);
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
@@ -27,8 +10,6 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     options.Password.RequireLowercase = false;
     options.Password.RequiredLength = 3;
 }).AddEntityFrameworkStores<ApplicationDbContext>();
-
-
 
 builder.Services.AddAuthorization(options =>
 {
@@ -41,7 +22,6 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("CpfPolicy", p =>
         p.RequireAuthenticatedUser().RequireClaim("Cpf"));
 });
-
 builder.Services.AddAuthentication(x =>
 {
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -68,6 +48,18 @@ builder.Services.AddScoped<UserCreator>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.WebHost.UseSerilog((context, configuration) =>
+{
+    configuration
+        .WriteTo.Console()
+        .WriteTo.MSSqlServer(
+            context.Configuration["ConnectionString:IWantDb"],
+              sinkOptions: new MSSqlServerSinkOptions()
+              {
+                  AutoCreateSqlTable = true,
+                  TableName = "LogAPI"
+              });
+});
 
 var app = builder.Build();
 app.UseAuthentication();
@@ -87,6 +79,12 @@ app.MapMethods(CategoryPut.Template, CategoryPut.Methods, CategoryPut.Handle);
 app.MapMethods(EmployeePost.Template, EmployeePost.Methods, EmployeePost.Handle);
 app.MapMethods(EmployeeGetAll.Template, EmployeeGetAll.Methods, EmployeeGetAll.Handle);
 app.MapMethods(TokenPost.Template, TokenPost.Methods, TokenPost.Handle);
+app.MapMethods(ProductPost.Template, ProductPost.Methods, ProductPost.Handle);
+app.MapMethods(ProductGetAll.Template, ProductGetAll.Methods, ProductGetAll.Handle);
+app.MapMethods(ProductGetShowcase.Template, ProductGetShowcase.Methods, ProductGetShowcase.Handle);
+app.MapMethods(ClientPost.Template, ClientPost.Methods, ClientPost.Handle);
+app.MapMethods(ClientGet.Template, ClientGet.Methods, ClientGet.Handle);
+app.MapMethods(OrderPost.Template, OrderPost.Methods, OrderPost.Handle);
 
 app.UseExceptionHandler("/error");
 app.Map("/error", (HttpContext http) => {

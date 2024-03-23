@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\products\\productgetshowcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\products\\productgetshowcases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\employees\\employeepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\employees\\employeepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\clients\\clientget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\clients\\clientget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\endpoints\\order\\orderpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|solutionrelative:endpoints\\order\\orderpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5449355C-05B3-4362-981A-3EF57C199F44}|IWantApp.csproj|c:\\users\\thiago\\downloads\\iwantapp\\src\\iwantapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IWantApp.csproj",
               "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\IWantApp.csproj",
               "RelativeDocumentMoniker": "IWantApp.csproj",
               "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\IWantApp.csproj",
               "RelativeToolTip": "IWantApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-03-20T01:43:38.909Z",
               "IsPinned": true,
@@ -40,28 +48,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T01:51:53.443Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductGetShowcases.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductGetShowcases.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductGetShowcases.cs",
-              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Products\\ProductGetShowcases.cs",
-              "RelativeToolTip": "Endpoints\\Products\\ProductGetShowcases.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Title": "EmployeePost.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Employees\\EmployeePost.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Employees\\EmployeePost.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Employees\\EmployeePost.cs",
+              "RelativeToolTip": "Endpoints\\Employees\\EmployeePost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T16:36:29.912Z",
+              "WhenOpened": "2024-03-23T20:10:59.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderPost.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Order\\OrderPost.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Order\\OrderPost.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Order\\OrderPost.cs",
+              "RelativeToolTip": "Endpoints\\Order\\OrderPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T19:53:11.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientGet.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Clients\\ClientGet.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Clients\\ClientGet.cs",
+              "ToolTip": "C:\\Users\\Thiago\\Downloads\\IWantApp\\src\\Endpoints\\Clients\\ClientGet.cs",
+              "RelativeToolTip": "Endpoints\\Clients\\ClientGet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T19:45:23.568Z",
               "EditorCaption": ""
             },
             {
